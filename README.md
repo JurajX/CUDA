@@ -2,15 +2,16 @@
 
 This project is based on the Udacity coruse called *Intro to Parallel Programming*. At the time I took the course the provided [code](https://github.com/udacity/cs344), was obsolete (did not work with new versions of openCV and other libraries). Hence, I decided to reimplement the problem sets from scratch. The code implements
  * four main GPU methods
-  - reduce,
-  - scan,
-  - histogram, and
-  - sort
+   * reduce,
+   * scan,
+   * histogram, and
+   * sort
+
  * four homework assignments where the above methods are used
-  - converting colour pictures to greyscale pictures
-  - blurring pictures
-  - tone mapping (HDR) operation on pictures
-  - red-eye removal from pictures
+   * converting colour pictures to greyscale pictures
+   * blurring pictures
+   * tone mapping (HDR) operation on pictures
+   * red-eye removal from pictures
 
 The code is structured into two folders Libraries and Projects.
 
