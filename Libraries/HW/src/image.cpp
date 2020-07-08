@@ -88,6 +88,7 @@ void Image::saveImage(const std::filesystem::path& path) {
 
     try {
         cv::imwrite(path.string(), img);
+        std::cout << "Image written to: " << path.string() << std::endl;
     }
     catch (const cv::Exception& ex) {
         std::cerr << "Could not save the image: " << path.string() << ".\n" << ex.what() << std::endl;
