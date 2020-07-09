@@ -1,4 +1,4 @@
-# CUDA
+# Parallel Programming with CUDA
 
 This project is based on the Udacity course called *Intro to Parallel Programming*. At the time I took the course the provided [code](https://github.com/udacity/cs344), was obsolete (did not work with new versions of openCV and other libraries). Hence, I decided to reimplement the problem sets from scratch. The code implements
  * four main GPU methods
